@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+html
+{
+	background-image:url("https://thumb.ac-illust.com/77/770fc182b7ec0c05dccdc7ff571f0dcc_t.jpeg");
+  	background-size: 100% auto;
+  	background-repeat: no-repeat; 
+}
+  .heading {
+  
+    font-size:  75px;
+    
+    color:red
+  }
+  
+  
+
+p {
+  color:brown;
+  padding-top: 20px;
+  font-family: 'Coiny', cursive;
+  text-align: center;
+  font-size: 50px;
+-webkit-animation: bounce .4s ease infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+      text-shadow:
+                  0 5px 0 #ccc,
+                  0 2px 3px rgba(0, 0, 0, 1);  
+  }
+  100% {
+    transform:translateY(-20px);
+    text-shadow:  0 50px 0 
+                  0 0px 20px rgba(0, 0, 0, .8);
+  }
+}
+article 
+{
+	display:flex;	
+}
+.play
+{
+	width: 8rem;
+	height: 4rem;
+	font-size: 20px;
+	border-radius: 1rem;
+	background-color:darkgreen;
+	color:white;
+	margin-top:2rem;
+	margin-left:38rem;
+	
+	
+}
+img
+{
+	width: 10rem;
+	height: 10rem;
+	border-radius: 10rem;
+}
+.exit
+{
+	width: 8rem;
+	height: 4rem;
+	font-size: 20px;
+	border-radius: 1rem;
+	background-color:brown;
+	color: white;
+	margin-left:38rem;
+	margin-top: 2rem;
+}
+input
+{
+	width: 3rem;
+	height: 2rem;
+	margin-left:3rem;
+	font-size: 25px;
+}	
+form
+{
+	font-size:30px;
+	
+}
+.guess
+{
+	margin-left: 37rem;
+	font-size: 30px;
+	color: black;
+}
+article
+{
+	display: flex;
+}
+.Error
+{
+	color: red;
+}

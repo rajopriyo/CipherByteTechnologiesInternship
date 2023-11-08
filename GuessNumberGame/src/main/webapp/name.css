@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+html
+{
+	background-image:url("https://thumb.ac-illust.com/77/770fc182b7ec0c05dccdc7ff571f0dcc_t.jpeg");
+  	background-size: 100% auto;
+  	background-repeat: no-repeat; 
+}
+  .heading {
+    animation: changecolor1 5s infinite;
+    font-size:  75px;
+    margin-left:5rem;
+  }
+  
+  @keyframes changecolor1 {
+    0% {color:red}
+    20% {color:brown}
+    40% {color:deeppink}
+    60% {color:blueviolet}
+    80% {color:brown}
+    100% {color:firebrick }
+  }
+
+
+p {
+  color:yellow;
+  font: normal 55px Varela Round, sans-serif;
+  height: 140px;
+  left: 5%;
+  letter-spacing: 5px;
+  margin: -78px 0 0 0;
+  position: absolute;
+  text-align: center;
+  
+  top: 40%;
+  width: 100%;
+  animation: move linear 2000ms infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+.play
+{
+	width: 8rem;
+	height: 3rem;
+	font-size: 20px;
+	border-radius: 1rem;
+	background-color:darkgreen;
+	color:white;
+	margin-top:4rem;
+	margin-left:38rem;
+	margin-right: 2rem;
+}
+
+form
+{
+	font-size:30px;
+	
+}
+.guess
+{
+	margin-left: 35rem;
+	margin-top: 10rem;
+}
+.Name
+{
+	width: 15rem;
+	height: 2rem;	
+}
